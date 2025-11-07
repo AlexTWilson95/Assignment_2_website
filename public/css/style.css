@@ -67,3 +67,168 @@ nav .nav-link:hover {
   color: #000;
 }
 
+.active-nav {
+  background: #dcdcdc;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-weight: bold;
+}
+
+/* PROJECTS GRID */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 across */
+  gap: 30px;
+  padding: 40px;
+}
+
+.project-item {
+  background: white;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
+
+.project-item h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.project-item p {
+  color: #555;
+}
+
+
+/* CONTACT PAGE — Full Center Column */
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+}
+
+.contact-form button {
+  width: 100%;
+}
+
+/* Entire contact card */
+.contact-card {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 3px solid black;
+  border-radius: 40px;
+  background: #9c9b9b;     /* Light grey */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* Form groups with rounded outer capsule */
+.input-group-block {
+  border: 3px solid black;
+  border-radius: 25px;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  background: #fff;
+}
+
+/* Label style in its own small rounded "bubble" */
+.input-group-block label {
+  font-weight: 600;
+  margin-right: 10px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Inputs with rounded shape */
+.custom-input {
+  border: 2px solid black !important;
+  border-radius: 12px !important;
+  padding: 8px 12px;
+}
+
+/* Message box block styling */
+.message-label {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Textarea shape */
+.custom-textarea {
+  border: 3px solid black !important;
+  border-radius: 22px !important;
+  padding: 12px;
+  resize: none;
+}
+
+/* Captcha + Send Row */
+.captcha-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+/* Captcha bubble container */
+.captcha-box {
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 10px 15px;
+  background: #f3f3f3;
+}
+
+.captcha-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.captcha-input {
+  width: 110px;
+  border: 2px solid black !important;
+  border-radius: 10px !important;
+}
+
+/* Send button bubble */
+.send-btn {
+  border: 3px solid #00b7ff;
+  background: white;
+  padding: 10px 28px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.send-btn:hover {
+  background: #00b7ff;
+  color: white;
+}
+
+
