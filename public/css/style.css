@@ -1,0 +1,69 @@
+/* PROFILE PHOTO */
+.home-photo {
+  width: 250px;        
+  height: 250px;       
+  border-radius: 50%;  
+  object-fit: cover;   
+  border: 3px solid black;
+  display: block;
+  margin: 0 auto 20px auto; 
+}
+
+/* Footer styling */
+.site-footer {
+  background-color: rgb(144, 144, 144);
+  color: white;
+  width: 100%;
+  border-top: 3px solid #fff;
+  margin-top: 40px;
+}
+
+.site-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Links row */
+.footer-links {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-right: 12px;
+}
+
+/* Social Icons */
+.footer-socials i {
+  transition: transform 0.2s ease;
+}
+
+.footer-socials i:hover {
+  transform: scale(1.2);
+}
+
+.footer-email {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+header {
+  background-color: #f3f3f3; 
+  padding: 20px 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.header-socials a:hover {
+  transform: scale(1.2);
+  color: #000;
+}
+
+nav .nav-link:hover {
+  background-color: #dcdcdc;
+  color: #000;
+}
+
