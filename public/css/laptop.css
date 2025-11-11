@@ -1,0 +1,16 @@
+/* LAPTOP (min-width: 1025px) */
+
+.home-photo {
+  width: 250px;
+  height: 250px;
+}
+
+/* Projects grid: 3 across */
+.projects-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Contact card stays large */
+.contact-card {
+  max-width: 600px;
+}
