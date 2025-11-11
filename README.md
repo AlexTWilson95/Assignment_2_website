@@ -124,10 +124,14 @@ There is also a private (unprotected) admin viewer:
 ### Run locally  
 (Have gitbash installed)
 make sure you have run the install in the bash terminal before.
+```bash   
     npm install
+```
 in the bash terminal (cd) into the project directory than run (node ./bin/www) then go to the link shown
+```bash   
     cd /path/to/your/project
     node ./bin/www
+```    
 Link for running the website locally: http://localhost:3000
 (ctrl + c) in the bash terminal to stop runtime
 
