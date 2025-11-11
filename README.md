@@ -15,10 +15,10 @@ Coming Soon (Deployment planned on Render)
 
 ## Live Links & Social Profiles  
 all links on the website are using <a href> for redirects:
-Instagram: https://www.instagram.com/alexndrwilson/
-LinkedIn: https://www.linkedin.com/in/alexander-wilson-lovedataforever
-GitHub: https://github.com/AlexTWilson95
-Email: (display only): Contact@AlexTwilson.com
+- Instagram: https://www.instagram.com/alexndrwilson/
+- LinkedIn: https://www.linkedin.com/in/alexander-wilson-lovedataforever
+- GitHub: https://github.com/AlexTWilson95
+- Email: (display only): Contact@AlexTwilson.com
 
 ---
 
