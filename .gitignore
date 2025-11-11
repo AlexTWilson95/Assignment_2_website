@@ -18,6 +18,5 @@ yarn-error.log*
 .idea/
 *.swp
 
-# Local data file created by contact form
-messages.json
+
 
