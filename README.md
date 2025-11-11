@@ -9,7 +9,8 @@ Built from scratch, this site demonstrates practical web development skills acro
 
 
 ## Live Demo 
-Coming Soon (Deployment planned on Render)
+You can view the deployed portfolio here:
+**https://alextwilson.onrender.com/**
 
 ---
 
