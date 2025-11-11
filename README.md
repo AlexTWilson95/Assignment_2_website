@@ -139,10 +139,10 @@ Link for running the website locally: http://localhost:3000
 
 ## Message Storage Notes 
 This project uses a local JSON file (messages.json) for storing contact form submissions.
-    (Function) Works perfectly in local development
-    (Function) Works on most hosted Node environments
-    (Warning) On free-tier Render, message data resets when the server restarts
-    (Warning) Not encrypted — intended for simple portfolio/demo use
+- (Function) Works perfectly in local development
+- (Function) Works on most hosted Node environments
+- (Warning) On free-tier Render, message data resets when the server restarts
+- (Warning) Not encrypted — intended for simple portfolio/demo use
 
 ---
 
